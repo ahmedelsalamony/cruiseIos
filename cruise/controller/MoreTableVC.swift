@@ -14,10 +14,50 @@ class MoreTableVC: UITableViewController  {
     @IBOutlet var moreTableView: UITableView!
     
     //vars
-    let moreTableDataSource = ["Profile","Purchases","ContactUs","Terms and Conditions","Logout"]
+    let moreTableDataSource = ["الملف الشخصى","طلباتى","تواصل معنا","الشروط والاحكام","تسجيل الخروج"]
+    
+    
+    override func viewWillAppear(_ animated: Bool) {
+        if ((UserDefaults.standard.string(forKey: "userId")) == nil){
+            let alert = UIAlertController(title: "كروز", message: "من فضلك سجل الدخول اولا", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "حسناً", style: .default, handler: { action in
+                switch action.style{
+                case .default:
+                    print("default")
+                    guard let window = UIApplication.shared.keyWindow else {return}
+                    let sb = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "loginvc")
+                    window.rootViewController = sb
+                    UIView.transition(with: window, duration: 0.5, options: .transitionFlipFromTop, animations: nil, completion: nil)
+                case .cancel:
+                    print("cancel")
+                case .destructive:
+                    print("destructive")
+                    
+                }}))
+            alert.addAction(UIAlertAction(title: "تخطى", style: .default, handler: { action in
+                switch action.style{
+                case .default:
+                    print("default")
+                    let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+                    let newViewController = storyBoard.instantiateViewController(withIdentifier: "homeVC") as! ClientHomeController
+                    self.navigationController?.pushViewController(newViewController, animated: true)
+                case .cancel:
+                    print("cancel")
+                    
+                case .destructive:
+                    print("destructive")
+                    
+                }}))
+            self.present(alert, animated: true, completion: nil)
+        }
+    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+ 
+        ////////////////////
         self.moreTableView.delegate = self
         self.moreTableView.dataSource = self
         

@@ -50,7 +50,8 @@ class SearchVC: UIViewController , UICollectionViewDelegate , UICollectionViewDa
     func textFieldDidEndEditing(_ textField: UITextField) {
         
         print("done click ")
-        SearchService.instance.getSearchResult(searchkey: "طماطم") { (success) in
+        guard let searchkey = txtSeachkey.text , !searchkey.isEmpty else {return}
+        SearchService.instance.getSearchResult(searchkey: searchkey) { (success) in
             if success {
                 
                 print("in search vc :: ")

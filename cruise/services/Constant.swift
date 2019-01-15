@@ -37,6 +37,7 @@ let ChatRoom_Url = "\(Base_Url)Chating/ChatRoom/"
 let SendMsg_Url = "\(Base_Url)Chating/SendMessage/"
 let ContactUs_Url = "\(Base_Url)Api/ContactUs"
 let Terms_Url = "\(Base_Url)Api/AppDetails/3"
+let CityArea_Url = "\(Base_Url)Api/CitesAreas"
 
 
 
@@ -72,4 +73,5 @@ static let DriverGroceryNotification = Notification.Name(rawValue: "DriverGrocer
 static let ChatRoomNotification = Notification.Name(rawValue: "ChatRoomNotification")
 static let SendMsgNotification = Notification.Name(rawValue : "SendMsgNotification")
 static let TermsNotification = Notification.Name(rawValue : "TermsNotification")
+static let CityAreaNotification = Notification.Name(rawValue: "CityAreaNotification")
 }

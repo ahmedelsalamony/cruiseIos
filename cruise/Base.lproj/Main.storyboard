@@ -4,6 +4,7 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -20,8 +21,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mVj-3s-zWf">
                                 <rect key="frame" x="2" y="64" width="371" height="151"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="client information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3Z-yG-FcD">
-                                        <rect key="frame" x="117.5" y="2" width="136" height="23.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="بيانات العميل" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A3Z-yG-FcD">
+                                        <rect key="frame" x="147" y="2" width="77" height="23.5"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -156,11 +157,11 @@
                                 <rect key="frame" x="62.5" y="578" width="250" height="31"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="7v5-sJ-oYu"/>
-                                    <constraint firstAttribute="width" constant="250" id="dDd-5X-SZe"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="dDd-5X-SZe"/>
                                 </constraints>
                                 <segments>
-                                    <segment title="super market"/>
-                                    <segment title="mini market"/>
+                                    <segment title="سوبر ماركت"/>
+                                    <segment title="مينى ماركت"/>
                                 </segments>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
@@ -181,8 +182,8 @@
                             <view clipsSubviews="YES" alpha="0.69999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QyK-ot-sxB" customClass="CustomRoundedView" customModule="cruise" customModuleProvider="target">
                                 <rect key="frame" x="67.5" y="124" width="240" height="35"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Search" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jXd-Gl-CUg">
-                                        <rect key="frame" x="93.5" y="6" width="53" height="23.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ابحث" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jXd-Gl-CUg">
+                                        <rect key="frame" x="104.5" y="6" width="31.5" height="23.5"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
@@ -298,7 +299,7 @@
                                 <rect key="frame" x="87.5" y="582" width="200" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="fBJ-wS-eYB"/>
-                                    <constraint firstAttribute="width" constant="200" id="fzB-ar-0a1"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="fzB-ar-0a1"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                 <state key="normal" title="select order location">
@@ -525,10 +526,10 @@
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="Fbl-Fr-Ei2"/>
-                                    <constraint firstAttribute="width" constant="250" id="vA8-I9-Zo3"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="vA8-I9-Zo3"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
-                                <state key="normal" title="PROCEED TO CHECKOUT">
+                                <state key="normal" title="تاكييد عملية الشراء">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -594,7 +595,7 @@
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="24" id="quG-Kq-Wzh"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create client account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M1k-wE-TQy">
+                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="انشاء حساب عميل" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M1k-wE-TQy">
                                         <rect key="frame" x="52" y="49" width="303" height="24"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="24" id="Gir-wB-SrN"/>
@@ -617,7 +618,7 @@
                                             <constraint firstAttribute="height" constant="24" id="ki4-bj-TO6"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create grocery account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Og-gV-GzC">
+                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="انشاء حساب بقالة" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Og-gV-GzC">
                                         <rect key="frame" x="52" y="105.5" width="303" height="24"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="24" id="8z3-Pk-jw8"/>
@@ -633,7 +634,7 @@
                                             <constraint firstAttribute="height" constant="0.5" id="fhy-c1-hW3"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create driver account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ElA-bq-Fta">
+                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="انشاء حساب سائق" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ElA-bq-Fta">
                                         <rect key="frame" x="52" y="162" width="303" height="24"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="24" id="s4R-q5-KAM"/>
@@ -707,10 +708,10 @@
             </objects>
             <point key="canvasLocation" x="929" y="1478"/>
         </scene>
-        <!--Login-->
+        <!--تسجيل دخول-->
         <scene sceneID="U0A-li-PEr">
             <objects>
-                <viewController id="Uf8-fe-Bf9" customClass="LoginVC" customModule="cruise" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="loginvc" id="Uf8-fe-Bf9" customClass="LoginVC" customModule="cruise" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KtW-j0-tde">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -726,7 +727,7 @@
                                 <rect key="frame" x="137.5" y="182" width="100" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="kl5-AP-f2H"/>
-                                    <constraint firstAttribute="width" constant="100" id="xlA-0z-FfW"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="xlA-0z-FfW"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -735,8 +736,11 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="DJG-JS-Tz5">
                                 <rect key="frame" x="12" y="283.5" width="351" height="100"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="user name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oJw-Ug-mzx" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="اسم المستخدم" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oJw-Ug-mzx" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="351" height="36"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="ghB-Xx-gop"/>
+                                        </constraints>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -744,28 +748,30 @@
                                             <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="user (1)"/>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Q4F-xG-MyT" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="كلمة المرور" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Q4F-xG-MyT" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="70" width="351" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="lock"/>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="oJw-Ug-mzx" firstAttribute="leading" secondItem="DJG-JS-Tz5" secondAttribute="leading" id="CpY-yg-LJP"/>
                                     <constraint firstAttribute="height" constant="100" id="GN8-Ss-4CK"/>
+                                    <constraint firstItem="oJw-Ug-mzx" firstAttribute="top" secondItem="DJG-JS-Tz5" secondAttribute="top" id="InV-2O-dlr"/>
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ySf-k2-owU">
                                 <rect key="frame" x="12" y="395.5" width="150" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="150" id="T35-XQ-GQe"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="T35-XQ-GQe"/>
                                     <constraint firstAttribute="height" constant="30" id="kjv-bG-EpZ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
-                                <state key="normal" title="forget password ?">
+                                <state key="normal" title="هل نسيت كلمة المرور؟">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -776,11 +782,11 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wWV-AU-nll" customClass="UIButtonX" customModule="cruise" customModuleProvider="target">
                                 <rect key="frame" x="127.5" y="525.5" width="120" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="Idq-Hv-nsv"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="Idq-Hv-nsv"/>
                                     <constraint firstAttribute="height" constant="30" id="XHw-wU-XXk"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
-                                <state key="normal" title="Login">
+                                <state key="normal" title="تسجيل الدخول">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -809,6 +815,7 @@
                         <constraints>
                             <constraint firstItem="ySf-k2-owU" firstAttribute="leading" secondItem="mO4-Xj-kVn" secondAttribute="leading" constant="12" id="1eo-i0-Swq"/>
                             <constraint firstItem="VzI-mU-HpP" firstAttribute="centerX" secondItem="KtW-j0-tde" secondAttribute="centerX" id="1yz-w3-7xM"/>
+                            <constraint firstItem="mO4-Xj-kVn" firstAttribute="trailing" secondItem="ySf-k2-owU" secondAttribute="trailing" constant="213" id="45c-2b-jzt"/>
                             <constraint firstItem="ySf-k2-owU" firstAttribute="top" secondItem="DJG-JS-Tz5" secondAttribute="bottom" constant="12" id="ESg-U9-b3n"/>
                             <constraint firstItem="wWV-AU-nll" firstAttribute="centerX" secondItem="KtW-j0-tde" secondAttribute="centerX" id="Icl-Co-MhY"/>
                             <constraint firstItem="DJG-JS-Tz5" firstAttribute="centerY" secondItem="KtW-j0-tde" secondAttribute="centerY" id="JWJ-Gv-hLV"/>
@@ -822,7 +829,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="mO4-Xj-kVn"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Login" id="FD5-Vs-Uy1"/>
+                    <navigationItem key="navigationItem" title="تسجيل دخول" id="FD5-Vs-Uy1"/>
                     <connections>
                         <outlet property="txtpassword" destination="Q4F-xG-MyT" id="3SX-x9-dci"/>
                         <outlet property="txtusername" destination="oJw-Ug-mzx" id="zLG-Mg-b2r"/>
@@ -840,7 +847,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="user name" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W9g-xl-OYL" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="اسم المستخدم" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W9g-xl-OYL" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
                                 <rect key="frame" x="12" y="133" width="351" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -849,7 +856,7 @@
                                     <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="user (1)"/>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="email" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BJP-RQ-4rN" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="البريد الالكترونى" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BJP-RQ-4rN" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
                                 <rect key="frame" x="12" y="179" width="351" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -861,7 +868,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We will send you a link to your email to change your password" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pvJ-Vq-ZTv">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="سوف نقوم بارسال رابط الى بريدك الالكترونى لتغيير كلمة المرور" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pvJ-Vq-ZTv">
                                 <rect key="frame" x="12" y="76" width="351" height="41"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -870,9 +877,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iOx-YG-M5G" customClass="UIButtonX" customModule="cruise" customModuleProvider="target">
                                 <rect key="frame" x="87.5" y="241" width="200" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="wxA-9B-cke"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="wxA-9B-cke"/>
                                 </constraints>
-                                <state key="normal" title="Reset Password">
+                                <state key="normal" title="اعادة تعيين كلمة المرور">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -934,7 +941,7 @@
                                 <rect key="frame" x="117.5" y="482" width="140" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="PjY-Lg-byz"/>
-                                    <constraint firstAttribute="width" constant="140" id="QfD-Bp-2el"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="QfD-Bp-2el"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
                                 <state key="normal" title="Register">
@@ -973,7 +980,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bZX-9E-0S8" customClass="UIButtonX" customModule="cruise" customModuleProvider="target">
                                 <rect key="frame" x="117.5" y="536" width="140" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="140" id="I5C-QL-iZl"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="I5C-QL-iZl"/>
                                     <constraint firstAttribute="height" constant="30" id="fGa-Jb-srE"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
@@ -1006,7 +1013,7 @@
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="GvO-RY-tdJ"/>
                                     <constraint firstAttribute="height" constant="30" id="LGL-Cy-MjD"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="f9o-VX-87D"/>
-                                    <constraint firstAttribute="width" constant="140" id="jO0-Ix-sTE"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="jO0-Ix-sTE"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
                                 <state key="normal" title="add profile picture">
@@ -1142,9 +1149,9 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QHO-Pz-8Za">
-                                <rect key="frame" x="111" y="166" width="153" height="37"/>
+                                <rect key="frame" x="119" y="166" width="137" height="37"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
-                                <state key="normal" title="add profile picture">
+                                <state key="normal" title="اضافة صورة شخصية">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -1154,7 +1161,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="h87-It-oM7">
                                 <rect key="frame" x="12" y="215" width="351" height="290"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="grocery name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0W8-Za-7VE" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="اسم البقالة" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0W8-Za-7VE" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="351" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1166,7 +1173,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Hours of work from .. to .." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DAT-Ys-pZ0" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ساعات العمل من .. الى .." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DAT-Ys-pZ0" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="52" width="351" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1178,7 +1185,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="phone number" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EPe-fH-wHl" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="رقم الهاتف" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EPe-fH-wHl" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="104" width="351" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1190,7 +1197,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ixg-6g-Yz5" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="البريد الالكترونى" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ixg-6g-Yz5" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="156" width="351" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1202,7 +1209,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password******" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Hr-8M-tab" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="كلمة المرور******" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6Hr-8M-tab" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="208" width="351" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1214,7 +1221,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Re-type password******" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dUT-qy-gkX" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="تاكيد كلمة المرور******" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dUT-qy-gkX" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="260" width="351" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1232,10 +1239,10 @@
                                 <rect key="frame" x="117.5" y="537" width="140" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="8pG-DE-hYO"/>
-                                    <constraint firstAttribute="width" constant="140" id="aqh-qS-YQ4"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="aqh-qS-YQ4"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
-                                <state key="normal" title="Continue">
+                                <state key="normal" title="استمرار">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -1264,9 +1271,9 @@
                                 <rect key="frame" x="12" y="76" width="100" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="F4P-aM-gnH"/>
-                                    <constraint firstAttribute="width" constant="100" id="ZlE-p5-41y"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="ZlE-p5-41y"/>
                                 </constraints>
-                                <state key="normal" title="login">
+                                <state key="normal" title="تسجيل">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -1298,6 +1305,7 @@
                             <constraint firstItem="SED-5x-ALD" firstAttribute="top" secondItem="YqS-5S-c8h" secondAttribute="top" constant="12" id="Ksw-iY-MvJ"/>
                             <constraint firstItem="2Mq-Fr-bUi" firstAttribute="top" secondItem="h87-It-oM7" secondAttribute="bottom" constant="32" id="OW8-Do-JL4"/>
                             <constraint firstItem="SED-5x-ALD" firstAttribute="leading" secondItem="YqS-5S-c8h" secondAttribute="leading" constant="12" id="P53-6V-qP4"/>
+                            <constraint firstItem="qQo-nj-KWL" firstAttribute="leading" secondItem="SED-5x-ALD" secondAttribute="trailing" constant="31.5" id="W9y-RX-5t2"/>
                             <constraint firstItem="QHO-Pz-8Za" firstAttribute="centerX" secondItem="qQo-nj-KWL" secondAttribute="centerX" id="bbj-2p-AcK"/>
                             <constraint firstItem="YqS-5S-c8h" firstAttribute="trailing" secondItem="h87-It-oM7" secondAttribute="trailing" constant="12" id="bey-nR-Cqo"/>
                             <constraint firstItem="QHO-Pz-8Za" firstAttribute="top" secondItem="qQo-nj-KWL" secondAttribute="bottom" constant="2" id="m33-lh-pOO"/>
@@ -1342,7 +1350,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="t3h-q4-ZNQ">
                                 <rect key="frame" x="8" y="204" width="359" height="372"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="driver name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S5y-No-8Sw" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="اسم السائق" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="S5y-No-8Sw" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="359" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1354,7 +1362,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="driver phone" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y7P-a2-Oic" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="رقم الهاتف" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Y7P-a2-Oic" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="38" width="359" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1368,7 +1376,7 @@
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OKn-8L-b3W" customClass="UIButtonX" customModule="cruise" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="76" width="359" height="30"/>
-                                        <state key="normal" title="select city"/>
+                                        <state key="normal" title="اختر المدينة"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                                 <real key="value" value="1"/>
@@ -1393,7 +1401,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P7d-nO-cEn" customClass="UIButtonX" customModule="cruise" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="114" width="359" height="30"/>
-                                        <state key="normal" title="select neighbourhood"/>
+                                        <state key="normal" title="اختر المجاورة"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                 <real key="value" value="6"/>
@@ -1415,7 +1423,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k2K-YS-UXf" customClass="UIButtonX" customModule="cruise" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="152" width="359" height="30"/>
-                                        <state key="normal" title="select license image"/>
+                                        <state key="normal" title="اختر صورة رخصة القيادة"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                 <real key="value" value="6"/>
@@ -1433,7 +1441,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CjO-wH-ZN2" customClass="UIButtonX" customModule="cruise" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="190" width="359" height="30"/>
-                                        <state key="normal" title="select residence image"/>
+                                        <state key="normal" title="اختر صورة الاقامة"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                 <real key="value" value="6"/>
@@ -1451,7 +1459,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h7z-dZ-FWa" customClass="UIButtonX" customModule="cruise" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="228" width="359" height="30"/>
-                                        <state key="normal" title="select car form image"/>
+                                        <state key="normal" title="اختر صورة السيارة"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                 <real key="value" value="6"/>
@@ -1467,7 +1475,7 @@
                                             <action selector="selectCarFormImg:" destination="Cud-dG-ToH" eventType="touchUpInside" id="ATv-a9-Kel"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uoN-QO-9YU" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="البريد الالكتورنى" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uoN-QO-9YU" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="266" width="359" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1479,11 +1487,11 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password******" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e4H-dJ-nWa" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="كلمة المرور******" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="e4H-dJ-nWa" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="304" width="359" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="lock"/>
                                             <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
@@ -1491,11 +1499,11 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Re-type password******" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VzY-Hi-VVR" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="تاكييد كلمة المرور******" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VzY-Hi-VVR" customClass="UITextFieldX" customModule="cruise" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="342" width="359" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="image" keyPath="leftImage" value="lock"/>
                                             <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
@@ -1506,12 +1514,12 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4tN-H5-efe">
-                                <rect key="frame" x="111" y="166" width="153" height="30"/>
+                                <rect key="frame" x="119" y="166" width="137" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="wwg-V1-2g1"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
-                                <state key="normal" title="add profile picture">
+                                <state key="normal" title="اضافة صورة شخصية">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -1522,10 +1530,10 @@
                                 <rect key="frame" x="117.5" y="592" width="140" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Ok5-VF-vhm"/>
-                                    <constraint firstAttribute="width" constant="140" id="tT7-3n-aWM"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="tT7-3n-aWM"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="20"/>
-                                <state key="normal" title="Register">
+                                <state key="normal" title="تسجيل حساب ">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -1563,9 +1571,9 @@
                                 <rect key="frame" x="12" y="76" width="100" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Zgh-wC-aci"/>
-                                    <constraint firstAttribute="width" constant="100" id="zYt-6P-NIY"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="zYt-6P-NIY"/>
                                 </constraints>
-                                <state key="normal" title="login"/>
+                                <state key="normal" title="تسجيل"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                         <real key="value" value="12"/>
@@ -1597,6 +1605,7 @@
                             <constraint firstItem="meG-M8-Ae7" firstAttribute="centerX" secondItem="JSf-Yy-uoZ" secondAttribute="centerX" id="YXf-9r-Tcf"/>
                             <constraint firstItem="mZF-df-tx5" firstAttribute="trailing" secondItem="t3h-q4-ZNQ" secondAttribute="trailing" constant="8" id="Z6P-L1-FGG"/>
                             <constraint firstItem="frQ-pL-Db2" firstAttribute="centerX" secondItem="JSf-Yy-uoZ" secondAttribute="centerX" id="dlc-qk-IrG"/>
+                            <constraint firstItem="frQ-pL-Db2" firstAttribute="leading" secondItem="4Ls-IJ-bQS" secondAttribute="trailing" constant="31.5" id="doO-c2-63U"/>
                             <constraint firstItem="4Ls-IJ-bQS" firstAttribute="top" secondItem="mZF-df-tx5" secondAttribute="top" constant="12" id="eMH-SD-Yff"/>
                             <constraint firstItem="frQ-pL-Db2" firstAttribute="top" secondItem="mZF-df-tx5" secondAttribute="top" constant="12" id="lOH-SA-5he"/>
                             <constraint firstItem="4Ls-IJ-bQS" firstAttribute="leading" secondItem="mZF-df-tx5" secondAttribute="leading" constant="12" id="mxm-Fe-zdP"/>
@@ -1632,7 +1641,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bIc-Qa-JPr">
                                 <rect key="frame" x="47.5" y="238.5" width="280" height="190"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="select city" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sK5-nJ-zUK">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اختر المدينة" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sK5-nJ-zUK">
                                         <rect key="frame" x="4" y="4" width="272" height="25"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
                                         <color key="textColor" red="0.15583812999999999" green="0.63162739359999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1656,7 +1665,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="xNe-KK-DzK">
                                         <rect key="frame" x="12" y="41.5" width="256" height="38"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KK6-ax-mTY" customClass="BEMCheckBox">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KK6-ax-mTY" customClass="BEMCheckBox">
                                                 <rect key="frame" x="0.0" y="0.0" width="125.5" height="38"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <userDefinedRuntimeAttributes>
@@ -1703,7 +1712,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="ni3-Gy-jnx">
                                         <rect key="frame" x="12" y="96" width="256" height="38"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C8j-XB-9GF" customClass="BEMCheckBox">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C8j-XB-9GF" customClass="BEMCheckBox">
                                                 <rect key="frame" x="0.0" y="0.0" width="125.5" height="38"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <userDefinedRuntimeAttributes>
@@ -1752,10 +1761,10 @@
                                         <rect key="frame" x="90" y="146" width="100" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="2n3-Pt-rOz"/>
-                                            <constraint firstAttribute="width" constant="100" id="F9W-LD-AWH"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="F9W-LD-AWH"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
-                                        <state key="normal" title="Done">
+                                        <state key="normal" title="تم">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <userDefinedRuntimeAttributes>
@@ -1835,7 +1844,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PFY-HR-Idl">
                                 <rect key="frame" x="47.5" y="248.5" width="280" height="170"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="select neighbourhood" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ldv-Ja-JMH">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اختر المجاورة" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ldv-Ja-JMH">
                                         <rect key="frame" x="4" y="4" width="272" height="25"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="18"/>
                                         <color key="textColor" red="0.15583812999999999" green="0.63162739359999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -1859,7 +1868,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="JAf-5Z-OVG">
                                         <rect key="frame" x="12" y="41.5" width="256" height="38"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c11-FY-nFX" customClass="BEMCheckBox">
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c11-FY-nFX" customClass="BEMCheckBox">
                                                 <rect key="frame" x="0.0" y="0.0" width="125.5" height="38"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <userDefinedRuntimeAttributes>
@@ -1903,9 +1912,12 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="lX1-Yr-1U8">
                                         <rect key="frame" x="12" y="96" width="256" height="38"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5E7-Zp-19p" customClass="BEMCheckBox">
-                                                <rect key="frame" x="0.0" y="0.0" width="121.5" height="38"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5E7-Zp-19p" customClass="BEMCheckBox">
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="38"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="100" id="9OO-yr-8az"/>
+                                                </constraints>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
                                                         <real key="value" value="2"/>
@@ -1980,7 +1992,7 @@
             </objects>
             <point key="canvasLocation" x="4871.1999999999998" y="3438.530734632684"/>
         </scene>
-        <!--Terms and Conditions-->
+        <!--الشروط والاحكام-->
         <scene sceneID="ZTo-9l-gAk">
             <objects>
                 <viewController storyboardIdentifier="terms" id="Gm8-Oo-pqW" customClass="TermsVC" customModule="cruise" customModuleProvider="target" sceneMemberID="viewController">
@@ -1991,7 +2003,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الشروط والاحكام" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zNK-T6-LdD">
                                 <rect key="frame" x="87.5" y="72" width="200" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="QZF-cj-OtO"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="QZF-cj-OtO"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -2014,7 +2026,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="kio-Ix-mRf"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Terms and Conditions" id="T6C-qn-aT3"/>
+                    <navigationItem key="navigationItem" title="الشروط والاحكام" id="T6C-qn-aT3"/>
                     <connections>
                         <outlet property="lblcontent" destination="Ipn-tB-DYm" id="oFS-GB-CpU"/>
                     </connections>
@@ -2052,7 +2064,7 @@
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9S3-mo-2bj">
                                                     <rect key="frame" x="115" y="11.5" width="180" height="21"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="180" id="56K-ok-TxW"/>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="180" id="56K-ok-TxW"/>
                                                         <constraint firstAttribute="height" constant="21" id="CzF-9F-zoT"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -2080,6 +2092,7 @@
                                                 <constraint firstItem="9S3-mo-2bj" firstAttribute="centerY" secondItem="a8b-8R-bZf" secondAttribute="centerY" id="5EB-F6-VUh"/>
                                                 <constraint firstItem="kjm-9h-lPx" firstAttribute="leading" secondItem="a8b-8R-bZf" secondAttribute="leading" constant="22" id="QTL-cj-AJk"/>
                                                 <constraint firstAttribute="trailing" secondItem="vbx-KB-ZYK" secondAttribute="trailing" constant="22" id="Zwp-LR-sTY"/>
+                                                <constraint firstItem="9S3-mo-2bj" firstAttribute="leading" secondItem="kjm-9h-lPx" secondAttribute="trailing" constant="61" id="a04-bj-Pt3"/>
                                                 <constraint firstItem="kjm-9h-lPx" firstAttribute="centerY" secondItem="a8b-8R-bZf" secondAttribute="centerY" id="bKV-xf-Ulw"/>
                                                 <constraint firstItem="vbx-KB-ZYK" firstAttribute="centerY" secondItem="a8b-8R-bZf" secondAttribute="centerY" id="gEV-ZZ-jWj"/>
                                                 <constraint firstItem="9S3-mo-2bj" firstAttribute="centerY" secondItem="vbx-KB-ZYK" secondAttribute="centerY" id="jo8-IZ-bDb"/>
@@ -2102,7 +2115,7 @@
                                 <rect key="frame" x="151.5" y="625" width="72" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Aec-Jn-EDu"/>
-                                    <constraint firstAttribute="width" constant="72" id="IeG-Jj-sTI"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="72" id="IeG-Jj-sTI"/>
                                 </constraints>
                                 <state key="normal" title="add items "/>
                                 <connections>
@@ -2129,10 +2142,10 @@
             </objects>
             <point key="canvasLocation" x="4213.6000000000004" y="2775.562218890555"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Home Tab Bar-->
         <scene sceneID="NiX-xF-RuG">
             <objects>
-                <tabBarController id="WoB-sH-mNK" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="hometabbar" id="WoB-sH-mNK" customClass="HomeTabBar" customModule="cruise" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Cwa-oF-bgU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2150,11 +2163,11 @@
             </objects>
             <point key="canvasLocation" x="12" y="33"/>
         </scene>
-        <!--notification-->
+        <!--الاشعارات-->
         <scene sceneID="FdS-0W-QLw">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DQN-Yh-9e8" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="notification" image="icons8-google-alerts" id="jqs-aF-Kql"/>
+                    <tabBarItem key="tabBarItem" title="الاشعارات" image="icons8-google-alerts" id="jqs-aF-Kql"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="I9v-Bz-9XN">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -2170,11 +2183,11 @@
             </objects>
             <point key="canvasLocation" x="-1148" y="775.86206896551732"/>
         </scene>
-        <!--Home-->
+        <!--الرئيسية-->
         <scene sceneID="3qG-dD-g23">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qm6-Tm-eDc" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" image="icons8-home-filled" id="RpY-GN-PtQ"/>
+                    <tabBarItem key="tabBarItem" title="الرئيسية" image="icons8-home-filled" id="RpY-GN-PtQ"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="x9c-po-wXq">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -2191,11 +2204,11 @@
             </objects>
             <point key="canvasLocation" x="-470" y="776"/>
         </scene>
-        <!--Cart-->
+        <!--العربة-->
         <scene sceneID="U4g-Ea-Y3y">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="O7H-ky-Lna" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Cart" image="icons8-shopping-cart-filled-25" id="7Ys-Cp-3zu"/>
+                    <tabBarItem key="tabBarItem" title="العربة" image="icons8-shopping-cart-filled-25" id="7Ys-Cp-3zu"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Wdw-QU-EfB">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -2264,11 +2277,11 @@
                                 <rect key="frame" x="87.5" y="32" width="200" height="28"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="27" id="4jC-OZ-1Lp"/>
-                                    <constraint firstAttribute="width" constant="200" id="rDZ-B6-QK4"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="rDZ-B6-QK4"/>
                                 </constraints>
                                 <segments>
-                                    <segment title="Current"/>
-                                    <segment title="Previous"/>
+                                    <segment title="الحالية"/>
+                                    <segment title="السابقة"/>
                                 </segments>
                                 <connections>
                                     <action selector="segmentedClicked:" destination="ytL-Lz-r07" eventType="valueChanged" id="hK2-p4-6WH"/>
@@ -2311,10 +2324,10 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aI4-vQ-QGc">
                                 <rect key="frame" x="2" y="22" width="371" height="152"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="details" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Qf-yr-GWo">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="التفاصيل" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Qf-yr-GWo">
                                         <rect key="frame" x="135.5" y="8" width="100" height="21"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="100" id="02z-0C-6Ip"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="02z-0C-6Ip"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.031838613010000003" green="0.33101056769999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2330,7 +2343,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dbU-r9-Qa1">
                                         <rect key="frame" x="104" y="34" width="200" height="20.5"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="200" id="riT-Ei-A2T"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="riT-Ei-A2T"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="15"/>
                                         <nil key="textColor"/>
@@ -2339,7 +2352,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u8a-iF-lCQ">
                                         <rect key="frame" x="104" y="62.5" width="200" height="21"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="200" id="5Kg-Kv-w3Z"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="5Kg-Kv-w3Z"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2348,7 +2361,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eAM-98-ISa">
                                         <rect key="frame" x="104" y="91.5" width="240" height="20.5"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="240" id="tTc-Rw-Y0m"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="tTc-Rw-Y0m"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -2357,7 +2370,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTC-js-vKs">
                                         <rect key="frame" x="104" y="120" width="200" height="18"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="200" id="cak-rK-327"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="cak-rK-327"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="15"/>
                                         <color key="textColor" red="0.031838613010000003" green="0.33101056769999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2371,14 +2384,18 @@
                                     <constraint firstItem="KIu-Bl-GCX" firstAttribute="top" secondItem="aI4-vQ-QGc" secondAttribute="top" constant="34" id="2Q3-Zd-F9K"/>
                                     <constraint firstItem="xTC-js-vKs" firstAttribute="leading" secondItem="KIu-Bl-GCX" secondAttribute="trailing" constant="8" id="3rf-Rf-iJ7"/>
                                     <constraint firstItem="u8a-iF-lCQ" firstAttribute="leading" secondItem="KIu-Bl-GCX" secondAttribute="trailing" constant="8" id="5Fj-Xa-ChB"/>
+                                    <constraint firstAttribute="trailing" secondItem="eAM-98-ISa" secondAttribute="trailing" constant="27" id="6n2-nD-USo"/>
+                                    <constraint firstAttribute="trailing" secondItem="xTC-js-vKs" secondAttribute="trailing" constant="67" id="Fey-WM-eoE"/>
                                     <constraint firstItem="dbU-r9-Qa1" firstAttribute="top" secondItem="KIu-Bl-GCX" secondAttribute="top" id="JPs-KS-Se1"/>
                                     <constraint firstItem="4Qf-yr-GWo" firstAttribute="centerX" secondItem="aI4-vQ-QGc" secondAttribute="centerX" id="ahO-Xa-S3Z"/>
                                     <constraint firstItem="eAM-98-ISa" firstAttribute="top" secondItem="u8a-iF-lCQ" secondAttribute="bottom" constant="8" id="b9E-Y1-PeB"/>
                                     <constraint firstItem="xTC-js-vKs" firstAttribute="top" secondItem="eAM-98-ISa" secondAttribute="bottom" constant="8" id="d4y-YO-v0s"/>
                                     <constraint firstAttribute="height" constant="152" id="euc-wR-4uZ"/>
                                     <constraint firstItem="dbU-r9-Qa1" firstAttribute="leading" secondItem="KIu-Bl-GCX" secondAttribute="trailing" constant="8" id="hcu-qi-cZ3"/>
+                                    <constraint firstAttribute="trailing" secondItem="u8a-iF-lCQ" secondAttribute="trailing" constant="67" id="ibx-tI-GEr"/>
                                     <constraint firstItem="u8a-iF-lCQ" firstAttribute="top" secondItem="dbU-r9-Qa1" secondAttribute="bottom" constant="8" id="myy-1X-bSe"/>
                                     <constraint firstItem="KIu-Bl-GCX" firstAttribute="leading" secondItem="aI4-vQ-QGc" secondAttribute="leading" constant="8" id="ofO-pe-c2U"/>
+                                    <constraint firstAttribute="trailing" secondItem="dbU-r9-Qa1" secondAttribute="trailing" constant="67" id="pI3-lr-eGX"/>
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="CbA-7L-vRI">
@@ -2451,7 +2468,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BLx-4O-4eY">
-                                <rect key="frame" x="0.0" y="64" width="375" height="543"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="587"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="scrollIndicatorInsets" minX="0.0" minY="0.0" maxX="0.0" maxY="2"/>
                             </tableView>
@@ -2481,7 +2498,7 @@
                                 <constraints>
                                     <constraint firstItem="qFL-xj-WBe" firstAttribute="centerY" secondItem="Ha4-u0-cA9" secondAttribute="centerY" id="Eps-sU-rhm"/>
                                     <constraint firstItem="Gfa-hP-QVr" firstAttribute="top" secondItem="Ha4-u0-cA9" secondAttribute="top" constant="8" id="JGl-J5-Wk9"/>
-                                    <constraint firstAttribute="trailing" secondItem="Gfa-hP-QVr" secondAttribute="trailing" constant="56" id="TMG-OQ-tMH"/>
+                                    <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="Gfa-hP-QVr" secondAttribute="trailing" constant="56" id="TMG-OQ-tMH"/>
                                     <constraint firstAttribute="bottom" secondItem="Gfa-hP-QVr" secondAttribute="bottom" constant="8" id="WtX-bK-9nL"/>
                                     <constraint firstItem="Gfa-hP-QVr" firstAttribute="leading" secondItem="Ha4-u0-cA9" secondAttribute="leading" constant="8" id="s1S-zs-WJN"/>
                                     <constraint firstAttribute="trailing" secondItem="qFL-xj-WBe" secondAttribute="trailing" constant="8" id="v4X-CW-hkW"/>
@@ -2511,11 +2528,11 @@
             </objects>
             <point key="canvasLocation" x="5615" y="170"/>
         </scene>
-        <!--more-->
+        <!--المزيد-->
         <scene sceneID="TgS-NF-yWc">
             <objects>
                 <navigationController id="svV-Pi-e2F" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="more" image="icons8-more-filled-25" id="mZW-n8-ggo"/>
+                    <tabBarItem key="tabBarItem" title="المزيد" image="icons8-more-filled-25" id="mZW-n8-ggo"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CcK-EV-ysT">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -2532,11 +2549,11 @@
             </objects>
             <point key="canvasLocation" x="1599" y="776"/>
         </scene>
-        <!--Settings-->
+        <!--الاعدادات-->
         <scene sceneID="yTK-lD-AOw">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="WfC-qd-aoZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Settings" image="icons8-settings" id="qaF-af-XFC"/>
+                    <tabBarItem key="tabBarItem" title="الاعدادات" image="icons8-settings" id="qaF-af-XFC"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="SbM-0p-YZx">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
@@ -2661,7 +2678,7 @@
             </objects>
             <point key="canvasLocation" x="1982" y="2128"/>
         </scene>
-        <!--order cost-->
+        <!--تكلفة الطلب-->
         <scene sceneID="mG7-WW-wgz">
             <objects>
                 <viewController storyboardIdentifier="orderCost" id="yXK-ap-b0I" customClass="OrderCostVC" customModule="cruise" customModuleProvider="target" sceneMemberID="viewController">
@@ -2672,10 +2689,10 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3q3-Gb-WV6">
                                 <rect key="frame" x="8" y="72" width="359" height="70"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Order Cost" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34V-oq-IxG">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تكلفة الطلب" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34V-oq-IxG">
                                         <rect key="frame" x="129.5" y="4" width="100" height="21"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="100" id="jpT-9q-35H"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="jpT-9q-35H"/>
                                             <constraint firstAttribute="height" constant="21" id="jub-nQ-rtn"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
@@ -2693,7 +2710,7 @@
                                         <rect key="frame" x="16" y="38.5" width="100" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="Z28-Af-IZv"/>
-                                            <constraint firstAttribute="width" constant="100" id="qmi-Yi-nYQ"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="qmi-Yi-nYQ"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
                                         <nil key="textColor"/>
@@ -2703,7 +2720,7 @@
                                         <rect key="frame" x="223" y="38.5" width="120" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="JWE-5A-IWQ"/>
-                                            <constraint firstAttribute="width" constant="120" id="hy5-jY-I3D"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="hy5-jY-I3D"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
                                         <color key="textColor" red="0.94779108502538068" green="0.714295326471172" blue="0.22430032744350739" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2713,10 +2730,14 @@
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="pEx-Mn-dt4" secondAttribute="trailing" constant="16" id="3CC-vu-wBS"/>
+                                    <constraint firstItem="pEx-Mn-dt4" firstAttribute="leading" secondItem="geF-Ay-IwN" secondAttribute="trailing" constant="107" id="Cto-7T-Mfw"/>
+                                    <constraint firstAttribute="trailing" secondItem="pEx-Mn-dt4" secondAttribute="trailing" constant="16" id="KP7-MS-ujt"/>
                                     <constraint firstAttribute="trailing" secondItem="Wsv-bG-mzl" secondAttribute="trailing" constant="12" id="Leb-Vs-Dd8"/>
                                     <constraint firstItem="pEx-Mn-dt4" firstAttribute="top" secondItem="Wsv-bG-mzl" secondAttribute="bottom" constant="12" id="MYE-Kf-0Xo"/>
+                                    <constraint firstAttribute="trailing" secondItem="pEx-Mn-dt4" secondAttribute="trailing" constant="16" id="SFC-1E-x5q"/>
                                     <constraint firstItem="34V-oq-IxG" firstAttribute="top" secondItem="3q3-Gb-WV6" secondAttribute="top" constant="4" id="WCs-gU-FuT"/>
                                     <constraint firstItem="34V-oq-IxG" firstAttribute="centerX" secondItem="3q3-Gb-WV6" secondAttribute="centerX" id="XNQ-sD-2T5"/>
+                                    <constraint firstAttribute="trailing" secondItem="pEx-Mn-dt4" secondAttribute="trailing" constant="16" id="fJp-Lb-Lpu"/>
                                     <constraint firstItem="Wsv-bG-mzl" firstAttribute="leading" secondItem="3q3-Gb-WV6" secondAttribute="leading" constant="12" id="gcG-oN-XH9"/>
                                     <constraint firstItem="geF-Ay-IwN" firstAttribute="leading" secondItem="3q3-Gb-WV6" secondAttribute="leading" constant="16" id="gws-pG-fvw"/>
                                     <constraint firstAttribute="height" constant="70" id="rXM-yr-XUX"/>
@@ -2731,7 +2752,7 @@
                                         <rect key="frame" x="129.5" y="8" width="100" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="QBi-HY-sIG"/>
-                                            <constraint firstAttribute="width" constant="100" id="hbK-jL-MWl"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="hbK-jL-MWl"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                         <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2748,7 +2769,7 @@
                                         <rect key="frame" x="129.5" y="29" width="100" height="21"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="21" id="Xfk-9J-2RT"/>
-                                            <constraint firstAttribute="width" constant="100" id="jpa-aX-AD6"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="jpa-aX-AD6"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="14"/>
                                         <nil key="textColor"/>
@@ -2816,11 +2837,11 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jkw-tu-pd8" customClass="UIButtonX" customModule="cruise" customModuleProvider="target">
                                 <rect key="frame" x="87.5" y="576" width="200" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="JHM-SI-t2Y"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="JHM-SI-t2Y"/>
                                     <constraint firstAttribute="height" constant="30" id="wRW-5m-i2w"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
-                                <state key="normal" title="send orders">
+                                <state key="normal" title="ارسال الطلب">
                                     <color key="titleColor" white="0.90493899830000002" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -2864,7 +2885,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="E66-Pr-u0k"/>
                     </view>
-                    <navigationItem key="navigationItem" title="order cost" id="Oep-KK-Ffy"/>
+                    <navigationItem key="navigationItem" title="تكلفة الطلب" id="Oep-KK-Ffy"/>
                     <connections>
                         <outlet property="genaralmarketviewcontainer" destination="ECy-fW-4Pa" id="tsB-gf-k5e"/>
                         <outlet property="lbldeliverycost" destination="j91-Aa-ewI" id="LKG-ou-cQH"/>
@@ -2972,7 +2993,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zzx-1q-abA">
                                 <rect key="frame" x="48" y="311" width="200" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="tRo-L5-DOm"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="tRo-L5-DOm"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -2981,7 +3002,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZOS-ZM-Rin">
                                 <rect key="frame" x="48" y="367" width="200" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="Lkj-4S-LD1"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="Lkj-4S-LD1"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -2990,7 +3011,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="******" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QRX-Ez-hZC">
                                 <rect key="frame" x="48" y="423" width="200" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="zlQ-nY-Gew"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="zlQ-nY-Gew"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -3006,6 +3027,7 @@
                             <constraint firstItem="hYS-mw-bCA" firstAttribute="leading" secondItem="V1O-2W-Z8g" secondAttribute="leading" constant="12" id="Hwv-h7-qYZ"/>
                             <constraint firstItem="ZOS-ZM-Rin" firstAttribute="leading" secondItem="3n2-tb-bqD" secondAttribute="trailing" constant="8" id="JkC-Qu-MpT"/>
                             <constraint firstItem="QRX-Ez-hZC" firstAttribute="leading" secondItem="hYS-mw-bCA" secondAttribute="trailing" constant="8" id="L6M-MT-fUp"/>
+                            <constraint firstItem="V1O-2W-Z8g" firstAttribute="trailing" secondItem="ZOS-ZM-Rin" secondAttribute="trailing" constant="127" id="OTs-Cd-Knx"/>
                             <constraint firstItem="ZOS-ZM-Rin" firstAttribute="top" secondItem="3n2-tb-bqD" secondAttribute="top" id="VjA-gS-AEt"/>
                             <constraint firstItem="mDb-JD-hYg" firstAttribute="top" secondItem="V1O-2W-Z8g" secondAttribute="top" constant="48" id="Wn6-nU-kOE"/>
                             <constraint firstItem="mDb-JD-hYg" firstAttribute="centerX" secondItem="Wpr-mc-szo" secondAttribute="centerX" id="ckR-1z-HCi"/>
@@ -3013,6 +3035,8 @@
                             <constraint firstItem="iH9-D7-ks6" firstAttribute="leading" secondItem="V1O-2W-Z8g" secondAttribute="leading" constant="12" id="iHs-du-d00"/>
                             <constraint firstItem="Zzx-1q-abA" firstAttribute="top" secondItem="iH9-D7-ks6" secondAttribute="top" id="lYR-fK-UwF"/>
                             <constraint firstItem="QRX-Ez-hZC" firstAttribute="top" secondItem="hYS-mw-bCA" secondAttribute="top" id="lt7-s1-5q8"/>
+                            <constraint firstItem="V1O-2W-Z8g" firstAttribute="trailing" secondItem="QRX-Ez-hZC" secondAttribute="trailing" constant="127" id="twr-AP-aa8"/>
+                            <constraint firstItem="V1O-2W-Z8g" firstAttribute="trailing" secondItem="Zzx-1q-abA" secondAttribute="trailing" constant="127" id="yvA-cg-32h"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="V1O-2W-Z8g"/>
                     </view>
@@ -3028,7 +3052,7 @@
             </objects>
             <point key="canvasLocation" x="4234" y="827"/>
         </scene>
-        <!--ContactUs-->
+        <!--تواصل معنا-->
         <scene sceneID="lcd-7d-UQc">
             <objects>
                 <viewController storyboardIdentifier="contactus" id="8mz-vF-x8l" customClass="ContactUs" customModule="cruise" customModuleProvider="target" sceneMemberID="viewController">
@@ -3074,9 +3098,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d4B-wR-aik" customClass="UIButtonX" customModule="cruise" customModuleProvider="target">
                                 <rect key="frame" x="87.5" y="318.5" width="200" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="HZz-2X-LpM"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="HZz-2X-LpM"/>
                                 </constraints>
-                                <state key="normal" title="Send ">
+                                <state key="normal" title="ارسال ">
                                     <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <userDefinedRuntimeAttributes>
@@ -3111,7 +3135,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="8xF-9l-xmS"/>
                     </view>
-                    <navigationItem key="navigationItem" title="ContactUs" id="GjC-4c-LKc"/>
+                    <navigationItem key="navigationItem" title="تواصل معنا" id="GjC-4c-LKc"/>
                     <connections>
                         <outlet property="tvemail" destination="UcK-FX-lEM" id="DMq-4s-XEZ"/>
                         <outlet property="tvmsg" destination="OJU-Ii-yP2" id="Pqp-fu-sJz"/>
@@ -3221,7 +3245,7 @@
         <image name="user (1)" width="18.399999618530273" height="18.399999618530273"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Wwe-2K-Mxi"/>
+        <segue reference="gba-92-X6H"/>
         <segue reference="tuj-Dv-6Rj"/>
         <segue reference="djM-Cv-2vS"/>
         <segue reference="yq3-ev-fGr"/>

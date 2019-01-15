@@ -18,6 +18,7 @@ class SelectCityAreaVC: UIViewController {
     @IBOutlet weak var firstchb: BEMCheckBox!
     @IBOutlet weak var secondchb: BEMCheckBox!
     var selectcityarea = ""
+    var arrOfCities = [CityAreaModel]()
     
     @IBAction func firstclicked(_ sender: Any) {
         self.secondchb.on = false
@@ -45,6 +46,13 @@ class SelectCityAreaVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupCardView()
+        
+        AddressServices.instance.getCities { (success) in
+        }
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(getCityArea), name: Notification.Name.CityAreaNotification , object: nil)
+        
+        
         if selectcityarea == "identifier_city" {
             selectlbl.text = "select city"
             firstlbl.text = "مدينة الرياض"
@@ -54,6 +62,14 @@ class SelectCityAreaVC: UIViewController {
             firstlbl.text = "الحى الاول "
             secondlbl.text = "الحى الثانى"        }
     }
+    
+    @objc func getCityArea(_ notification : Notification){
+        arrOfCities.removeAll()
+        if let myDict = notification.object as? [CityAreaModel] {
+            for item in myDict {
+                arrOfCities.append(CityAreaModel(cityid: item.cityid! , citytitle: item.citytitle!, arrOfAreas: item.arrOfAreas!))
+            }
+        }}
     
     @IBAction func doneBtn(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)

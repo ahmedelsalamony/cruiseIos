@@ -19,6 +19,8 @@
 		1226DB4D21BB28D300E95248 /* Cart+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1226DB4921BB28D300E95248 /* Cart+CoreDataClass.swift */; };
 		1226DB4E21BB28D300E95248 /* Cart+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1226DB4A21BB28D300E95248 /* Cart+CoreDataProperties.swift */; };
 		1226DB5221BB2A3E00E95248 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1226DB5121BB2A3E00E95248 /* PersistenceManager.swift */; };
+		12275B9021EE973400AD47C7 /* AddressServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12275B8F21EE973400AD47C7 /* AddressServices.swift */; };
+		12275B9221EE987E00AD47C7 /* CityAreaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12275B9121EE987E00AD47C7 /* CityAreaModel.swift */; };
 		1228503721E69F01001519AF /* DriverGroceryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1228503621E69F01001519AF /* DriverGroceryModel.swift */; };
 		1228503921E6B42B001519AF /* MyOrdersDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1228503821E6B42B001519AF /* MyOrdersDetailsVC.swift */; };
 		1229EA2D21DB60E1005693AB /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1229EA2C21DB60E1005693AB /* ResetPasswordVC.swift */; };
@@ -104,6 +106,7 @@
 		127E186D21CF0A6000A113A6 /* SendOrderServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 127E186C21CF0A6000A113A6 /* SendOrderServices.swift */; };
 		128405C821D88EAB0093FEDA /* MoreTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128405C721D88EAB0093FEDA /* MoreTableVC.swift */; };
 		129838F521DA38D400DA8689 /* MiniMarketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129838F421DA38D400DA8689 /* MiniMarketModel.swift */; };
+		12A2053C21EE0ACC00DA0724 /* HomeTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A2053B21EE0ACB00DA0724 /* HomeTabBar.swift */; };
 		12A91E4421C597EB00548D8D /* ImgsConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A91E4321C597EB00548D8D /* ImgsConverter.swift */; };
 		12A91E4621C59C6700548D8D /* CreateDriverAccountService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A91E4521C59C6700548D8D /* CreateDriverAccountService.swift */; };
 		12B25743219B488F0002EB9E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B25742219B488F0002EB9E /* SWRevealViewController.m */; };
@@ -125,6 +128,8 @@
 		1226DB4921BB28D300E95248 /* Cart+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cart+CoreDataClass.swift"; sourceTree = "<group>"; };
 		1226DB4A21BB28D300E95248 /* Cart+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cart+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		1226DB5121BB2A3E00E95248 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		12275B8F21EE973400AD47C7 /* AddressServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressServices.swift; sourceTree = "<group>"; };
+		12275B9121EE987E00AD47C7 /* CityAreaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityAreaModel.swift; sourceTree = "<group>"; };
 		1228503621E69F01001519AF /* DriverGroceryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverGroceryModel.swift; sourceTree = "<group>"; };
 		1228503821E6B42B001519AF /* MyOrdersDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyOrdersDetailsVC.swift; sourceTree = "<group>"; };
 		1229EA2C21DB60E1005693AB /* ResetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
@@ -213,6 +218,7 @@
 		127E186C21CF0A6000A113A6 /* SendOrderServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendOrderServices.swift; sourceTree = "<group>"; };
 		128405C721D88EAB0093FEDA /* MoreTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTableVC.swift; sourceTree = "<group>"; };
 		129838F421DA38D400DA8689 /* MiniMarketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniMarketModel.swift; sourceTree = "<group>"; };
+		12A2053B21EE0ACB00DA0724 /* HomeTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBar.swift; sourceTree = "<group>"; };
 		12A91E4321C597EB00548D8D /* ImgsConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgsConverter.swift; sourceTree = "<group>"; };
 		12A91E4521C59C6700548D8D /* CreateDriverAccountService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateDriverAccountService.swift; sourceTree = "<group>"; };
 		12B25741219B488F0002EB9E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -337,6 +343,7 @@
 				12513BEB21EAB8A000AB83EC /* ProfileVC.swift */,
 				12513BED21EACF1300AB83EC /* ContactUs.swift */,
 				12513BEF21EADEFF00AB83EC /* TermsVC.swift */,
+				12A2053B21EE0ACB00DA0724 /* HomeTabBar.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -391,6 +398,7 @@
 				125AB36021E0145600DA3FFA /* MyOrdersModel.swift */,
 				1228503621E69F01001519AF /* DriverGroceryModel.swift */,
 				12513BD121EA10E700AB83EC /* ChattingRoomModel.swift */,
+				12275B9121EE987E00AD47C7 /* CityAreaModel.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -410,6 +418,7 @@
 				12494E3621DCBB930076B176 /* NotificationServices.swift */,
 				125AB36221E018F700DA3FFA /* MyOrdersServices.swift */,
 				12513BCF21EA104200AB83EC /* ChattingServices.swift */,
+				12275B8F21EE973400AD47C7 /* AddressServices.swift */,
 			);
 			path = services;
 			sourceTree = "<group>";
@@ -669,9 +678,11 @@
 				1225DD6D219F5C5D007E51F1 /* HomeServices.swift in Sources */,
 				124BD7C421C259AF00C403CD /* ClientAccountRegisterVC.swift in Sources */,
 				1248145021A9EB24006B3B6B /* CustomRoundedView.swift in Sources */,
+				12275B9221EE987E00AD47C7 /* CityAreaModel.swift in Sources */,
 				125AB36321E018F700DA3FFA /* MyOrdersServices.swift in Sources */,
 				124A8083219AB32400B867AF /* CirculeImage.swift in Sources */,
 				124BD7CA21C27C3A00C403CD /* UITextFieldX.swift in Sources */,
+				12A2053C21EE0ACC00DA0724 /* HomeTabBar.swift in Sources */,
 				12A91E4621C59C6700548D8D /* CreateDriverAccountService.swift in Sources */,
 				12494E3921DCC45A0076B176 /* AlertsModel.swift in Sources */,
 				12513BD921EA179600AB83EC /* ChatToCell.swift in Sources */,
@@ -712,6 +723,7 @@
 				122A939121A88B1100B03857 /* CategoryDetailsOfMiniDetails.swift in Sources */,
 				124BD7D021C3169F00C403CD /* AllDepartmentProductsVC.swift in Sources */,
 				12513BEE21EACF1300AB83EC /* ContactUs.swift in Sources */,
+				12275B9021EE973400AD47C7 /* AddressServices.swift in Sources */,
 				125AB35B21E00B9300DA3FFA /* PurchasesVC.swift in Sources */,
 				122A939621A895DB00B03857 /* CartCollectionCell.swift in Sources */,
 				1247733421A0B75A00D268CD /* MiniMarketCollectionCell.swift in Sources */,
